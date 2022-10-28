@@ -18,6 +18,7 @@ public class Main {
             System.out.println("Wrong data! Please, restart application");
             System.exit(0);
         }
+
         System.out.println("Please enter the number of frags as the second player");
         int secondRed = 0;
         if (scn.hasNextInt()) {
@@ -27,6 +28,7 @@ public class Main {
             System.out.println("Wrong data! Please, restart application");
             System.exit(0);
         }
+
         System.out.println("Please enter the number of frags as the third player");
         int thirdRed = 0;
         if (scn.hasNextInt()) {
@@ -44,6 +46,7 @@ public class Main {
         } else {
             System.out.println("Wrong data! Please, restart application");
             System.exit(0);
+
         }
         System.out.println("Please enter the number of frags as the fifth player");
         int fifthRed = 0;
@@ -68,6 +71,7 @@ public class Main {
         } else {
             System.out.println("Wrong data! Please, restart application");
             System.exit(0);
+
         }
         System.out.println("Please enter the number of frags as the second player");
         int secondBlue = 0;
@@ -77,6 +81,7 @@ public class Main {
         } else {
             System.out.println("Wrong data! Please, restart application");
             System.exit(0);
+
         }
         System.out.println("Please enter the number of frags as the third player");
         int thirdBlue = 0;
@@ -86,6 +91,7 @@ public class Main {
         } else {
             System.out.println("Wrong data! Please, restart application");
             System.exit(0);
+
         }
         System.out.println("Please enter the number of frags as the fourth player");
         int fourthBlue = 0;
@@ -95,6 +101,7 @@ public class Main {
         } else {
             System.out.println("Wrong data! Please, restart application");
             System.exit(0);
+
         }
         System.out.println("Please enter the number of frags as the fifth player");
         int fifthBlue = 0;
