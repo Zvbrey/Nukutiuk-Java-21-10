@@ -3,7 +3,7 @@ package com.hillel.nukutiuk.homeworks.homework14;
 public class Registration {
     private String name, email, lastName;
     private int day, month, year, number, weight, pressure, numberOfSteps;
-    private int age = 2020;
+    private int age = Integer.parseInt(CurrentYear.Date());
 
     public int getAge() {
         return age;
