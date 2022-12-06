@@ -1,8 +1,16 @@
 package com.hillel.nukutiuk.homeworks.homework14;
 
 public class Registration {
-    private String name, email, lastName;
-    private int day, month, year, number, weight, pressure, numberOfSteps;
+    private final String name;
+    private final String email;
+    private String lastName;
+    private final int day;
+    private final int month;
+    private final int year;
+    private final int number;
+    private int weight;
+    private int pressure;
+    private int numberOfSteps;
     private int age = Integer.parseInt(CurrentYear.Date());
 
     public int getAge() {
