@@ -1,6 +1,6 @@
 package com.hillel.nukutiuk.homeworks.homework15;
 
-public class Iphone implements IOS {
+public class Iphone implements IOS, Smartphones {
 
     @Override
     public void iOS() {

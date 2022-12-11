@@ -1,5 +1,5 @@
 package com.hillel.nukutiuk.homeworks.homework15;
 
-public interface LinuxOS extends Smartphones {
+public interface LinuxOS {
     void linuxOS();
 }

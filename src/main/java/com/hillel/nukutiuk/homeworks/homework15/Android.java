@@ -1,6 +1,6 @@
 package com.hillel.nukutiuk.homeworks.homework15;
 
-public class Android implements LinuxOS{
+public class Android implements LinuxOS, Smartphones{
 
     @Override
     public void linuxOS() {
