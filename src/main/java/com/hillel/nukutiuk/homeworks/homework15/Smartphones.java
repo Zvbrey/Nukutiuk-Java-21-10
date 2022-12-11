@@ -1,7 +1,8 @@
 package com.hillel.nukutiuk.homeworks.homework15;
 
 public interface Smartphones {
-    void call();
-    void sms ();
-    void internet();
+    void call(String number);
+    void sms (String massage, String number);
+    void internet(String searchStr);
+
 }
