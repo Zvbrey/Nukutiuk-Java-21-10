@@ -6,4 +6,8 @@ public class RockMusic extends MusicStyles {
     public RockMusic(String band) {
         super(band);
     }
+
+    @Override
+    public void playMusic() {
+    }
 }

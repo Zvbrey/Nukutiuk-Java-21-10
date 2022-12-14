@@ -4,7 +4,13 @@ public abstract class MusicStyles {
 
     private final String band;
 
-    public MusicStyles(String band) {
+    public String getBand() {
+        return band;
+    }
+
+    public MusicStyles (String band){
         this.band = band;
     }
+
+    public abstract void playMusic();
 }

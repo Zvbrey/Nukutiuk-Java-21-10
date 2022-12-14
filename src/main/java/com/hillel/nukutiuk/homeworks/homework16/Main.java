@@ -4,8 +4,6 @@ import com.hillel.nukutiuk.homeworks.homework16.impl.ClassicMusic;
 import com.hillel.nukutiuk.homeworks.homework16.impl.PopMusic;
 import com.hillel.nukutiuk.homeworks.homework16.impl.RockMusic;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         MusicStyles[] musicStyles = {
@@ -17,10 +15,11 @@ public class Main {
                 new RockMusic("RVKIN")
         };
 
-        for (MusicStyles i: musicStyles ) {
-            System.out.println(i);
+        for (MusicStyles musicStyle : musicStyles) {
+            musicStyle.playMusic();
         }
-    }
 
+
+    }
 }
 
