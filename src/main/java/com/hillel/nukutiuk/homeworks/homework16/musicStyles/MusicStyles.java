@@ -1,4 +1,4 @@
-package com.hillel.nukutiuk.homeworks.homework16;
+package com.hillel.nukutiuk.homeworks.homework16.musicStyles;
 
 public abstract class MusicStyles {
 

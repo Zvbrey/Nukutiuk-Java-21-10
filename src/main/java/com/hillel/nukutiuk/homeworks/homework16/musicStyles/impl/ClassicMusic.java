@@ -1,6 +1,6 @@
-package com.hillel.nukutiuk.homeworks.homework16.impl;
+package com.hillel.nukutiuk.homeworks.homework16.musicStyles.impl;
 
-import com.hillel.nukutiuk.homeworks.homework16.MusicStyles;
+import com.hillel.nukutiuk.homeworks.homework16.musicStyles.MusicStyles;
 
 public class ClassicMusic extends MusicStyles {
     public ClassicMusic(String band) {

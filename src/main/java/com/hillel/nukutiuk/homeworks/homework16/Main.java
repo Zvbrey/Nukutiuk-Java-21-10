@@ -1,8 +1,9 @@
 package com.hillel.nukutiuk.homeworks.homework16;
 
-import com.hillel.nukutiuk.homeworks.homework16.impl.ClassicMusic;
-import com.hillel.nukutiuk.homeworks.homework16.impl.PopMusic;
-import com.hillel.nukutiuk.homeworks.homework16.impl.RockMusic;
+import com.hillel.nukutiuk.homeworks.homework16.musicStyles.MusicStyles;
+import com.hillel.nukutiuk.homeworks.homework16.musicStyles.impl.ClassicMusic;
+import com.hillel.nukutiuk.homeworks.homework16.musicStyles.impl.PopMusic;
+import com.hillel.nukutiuk.homeworks.homework16.musicStyles.impl.RockMusic;
 
 public class Main {
     public static void main(String[] args) {
