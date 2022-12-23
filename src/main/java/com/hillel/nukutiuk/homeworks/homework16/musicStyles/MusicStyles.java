@@ -2,7 +2,7 @@ package com.hillel.nukutiuk.homeworks.homework16.musicStyles;
 
 public abstract class MusicStyles {
 
-    private final String band;
+    private String band;
 
     public String getBand() {
         return band;

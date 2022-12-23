@@ -5,17 +5,34 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(DrinksMachine.COFFEE);
-        System.out.println(DrinksMachine.COFFEE.getDrink());
-        System.out.println(Arrays.toString(DrinksMachine.values()));
-        for (DrinksMachine value : DrinksMachine.values()){
-            System.out.println(value.getDrink());
-        }
-//        System.out.println(DrinksMachine.valueOf("ЧАЙ"));
+
+        DrinksMachine[] drinksMachines = DrinksMachine.values();
+        DrinksMachine drinks = null;
+
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("Please select a drink from the menu: " );
+        System.out.println("Please select a drink from the menu: " + Arrays.toString(drinksMachines) + "Or");
+
+        while (true) {
+            String userValue = scn.nextLine().toUpperCase();
+
+            for (DrinksMachine drinksMachine : drinksMachines) {
+                if (userValue.equals(drinksMachine.toString())) {
+                    drinks = DrinksMachine.valueOf(userValue);
+                    break;
+                }
+            }
+            if (drinks != null) {
+                break;
+            } else {
+                System.out.println("Wrong data, try again!");
+            }
+        }
+
+        switch (drinks){
+            case TEA:{}
+        }
+
 
     }
-
 }
