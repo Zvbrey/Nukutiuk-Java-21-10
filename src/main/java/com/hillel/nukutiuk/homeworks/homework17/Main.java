@@ -33,15 +33,25 @@ public class Main {
 
         switch (drinks){
             case COFFEE:{
-                System.out.println("The coffee is done");
+                System.out.println("The "+ DrinksMachine.COFFEE.getDrink() + " is done");
+                break;
             }
             case TEA:{
 
+                break;
             }
-            case LEMONADE:{}
-            case MOJITO:{}
-            case COCACOLA:{}
-            case WATER:{}
+            case LEMONADE:{
+                break;
+            }
+            case MOJITO:{
+                break;
+            }
+            case COCACOLA:{
+                break;
+            }
+            case WATER:{
+                break;
+            }
         }
 
 
