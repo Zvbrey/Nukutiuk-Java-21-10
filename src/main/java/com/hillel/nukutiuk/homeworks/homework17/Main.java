@@ -11,7 +11,9 @@ public class Main {
 
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("Please select a drink from the menu: " + Arrays.toString(drinksMachines) + "Or");
+        System.out.println("Please select a drink from the menu: "
+                + Arrays.toString(drinksMachines)
+                + " Or enter stop to complete the selection");
 
         while (true) {
             String userValue = scn.nextLine().toUpperCase();
@@ -30,7 +32,16 @@ public class Main {
         }
 
         switch (drinks){
-            case TEA:{}
+            case COFFEE:{
+                System.out.println("The coffee is done");
+            }
+            case TEA:{
+
+            }
+            case LEMONADE:{}
+            case MOJITO:{}
+            case COCACOLA:{}
+            case WATER:{}
         }
 
 

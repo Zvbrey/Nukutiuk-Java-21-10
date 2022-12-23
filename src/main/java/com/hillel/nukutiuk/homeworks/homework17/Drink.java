@@ -5,7 +5,13 @@ public class Drink {
     final int TEA = 8;
     final int LEMONADE = 9;
     final int MOJITO = 10;
-    final int MINERALWATER = 11;
-    final int COCA_COLA = 12;
+    final int WATER = 11;
+    final int COCACOLA = 12;
+
+    public static int counter;
+
+    public Drink(){
+        counter++;
+    }
 
 }
