@@ -21,13 +21,5 @@ public class Drink {
             DrinksMachine.COCACOLA, 12
     ));
 
-    public static int test(DrinksMachine drinkses){
-        int total = 0;
-
-
-    return total;
-
-    }
-
 
 }
