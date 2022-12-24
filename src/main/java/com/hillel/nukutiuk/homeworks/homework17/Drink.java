@@ -1,8 +1,6 @@
 package com.hillel.nukutiuk.homeworks.homework17;
-
 import java.util.EnumMap;
 import java.util.Map;
-
 import static com.hillel.nukutiuk.homeworks.homework17.DrinksMachine.*;
 
 public class Drink {
@@ -20,6 +18,4 @@ public class Drink {
             DrinksMachine.WATER, 11,
             DrinksMachine.COCACOLA, 12
     ));
-
-
 }

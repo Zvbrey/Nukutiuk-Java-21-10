@@ -1,8 +1,6 @@
 package com.hillel.nukutiuk.homeworks.homework17;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 import static com.hillel.nukutiuk.homeworks.homework17.DrinksMachine.*;
 
 public class Main {
@@ -10,11 +8,8 @@ public class Main {
         DrinksMachine[] drinksMachines = DrinksMachine.values();
         String doneDrinkMessage = "The tasty %s is done.";
         int totalPrice = 0;
-
         Scanner scn = new Scanner(System.in);
-
         System.out.println("Please select a drink from the menu: " + Arrays.toString(drinksMachines) + " Or enter stop to complete the selection");
-
 
         while (true) {
             DrinksMachine drinks = null;
@@ -31,7 +26,6 @@ public class Main {
                     break;
                 }
             }
-
 
             if (drinks != null) {
                 new Drink();
@@ -81,8 +75,6 @@ public class Main {
                 System.out.println("Wrong data, try again!");
             }
         }
-
-
     }
 }
 

@@ -8,7 +8,7 @@ public enum DrinksMachine {
     WATER("Мінералка"),
     COCACOLA("Кока_кола");
 
-    private String nameDrink;
+    private final String nameDrink;
 
     DrinksMachine(String nameDrink){
         this.nameDrink = nameDrink;
