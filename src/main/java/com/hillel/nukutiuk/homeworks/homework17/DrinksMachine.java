@@ -8,13 +8,13 @@ public enum DrinksMachine {
     WATER("Мінералка"),
     COCACOLA("Кока_кола");
 
-    private String drink;
+    private String nameDrink;
 
-    DrinksMachine(String drink){
-        this.drink = drink;
+    DrinksMachine(String nameDrink){
+        this.nameDrink = nameDrink;
     }
 
     public String getDrink(){
-        return drink;
+        return nameDrink;
     }
 }
