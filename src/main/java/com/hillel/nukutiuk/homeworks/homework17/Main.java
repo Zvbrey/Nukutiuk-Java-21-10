@@ -35,36 +35,43 @@ public class Main {
                 }
             }
 
+
             if (drinks != null) {
                 new Drink();
                 switch (drinks) {
                     case COFFEE -> {
                         totalPrice += Drink.PRICES.get(COFFEE);
+                        System.out.println(doDrink(COFFEE));
                         System.out.println("The " + COFFEE.getDrink() + " is done.");
                         break;
                     }
                     case TEA -> {
                         totalPrice += Drink.PRICES.get(TEA);
+                        System.out.println(doDrink(TEA));
                         System.out.println("The " + TEA.getDrink() + " is done.");
                         break;
                     }
                     case LEMONADE -> {
                         totalPrice += Drink.PRICES.get(LEMONADE);
+                        System.out.println(doDrink(LEMONADE));
                         System.out.println("The " + DrinksMachine.LEMONADE.getDrink() + " is done.");
                         break;
                     }
                     case MOJITO -> {
                         totalPrice += Drink.PRICES.get(MOJITO);
+                        System.out.println(doDrink(MOJITO));
                         System.out.println("The " + DrinksMachine.MOJITO.getDrink() + " is done.");
                         break;
                     }
                     case COCACOLA -> {
                         totalPrice += Drink.PRICES.get(COCACOLA);
+                        System.out.println(doDrink(COCACOLA));
                         System.out.println("The " + DrinksMachine.COCACOLA.getDrink() + " is done.");
                         break;
                     }
                     case WATER -> {
                         totalPrice += Drink.PRICES.get(WATER);
+                        System.out.println(doDrink(WATER));
                         System.out.println("The " + DrinksMachine.WATER.getDrink() + " is done.");
                         break;
                     }
@@ -75,7 +82,8 @@ public class Main {
             } else {
                 System.out.println("Wrong data, try again!");
             }
-
+            System.out.println("Total order price " + totalPrice + ". The number of drinks in the order "
+                    + Drink.counter);
 
         }
 

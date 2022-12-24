@@ -4,7 +4,7 @@ public enum DrinksMachine {
     COFFEE("Кава"),
     TEA("ЧАЙ"),
     LEMONADE("Лимонад"),
-    MOJITO("Монітор"),
+    MOJITO("Мохіто"),
     WATER("Мінералка"),
     COCACOLA("Кока_кола");
 
@@ -16,5 +16,9 @@ public enum DrinksMachine {
 
     public String getDrink(){
         return nameDrink;
+    }
+
+    public static String doDrink(DrinksMachine drinksMachine){
+      return "Please wait, I make " + drinksMachine;
     }
 }
